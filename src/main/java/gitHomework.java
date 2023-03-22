@@ -25,12 +25,12 @@ public class gitHomework {
         System.out.println("Input two strings to add the lengths:");
         String firstString = input.nextLine();
         String secondString = input.nextLine();
-        System.out.println("");
 
     }
 
-    public static int addInput(){
-
+    public static int addInput(String firstString, String secondString){
+        int total = firstString.length() + secondString.length();
+        return total;
     }
     public static void evenOddStrings(int total) {
         if (total % 2 == 0) {

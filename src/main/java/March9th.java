@@ -6,6 +6,8 @@ public class March9th {
         firstName = "Karolyn";
         lastName = "Morrow";
 
+        //practicing gitignore
+
         System.out.println("The length of my first name is " + firstName.length() + " characters and the length of my last name is " + lastName.length() + " characters.");
         computeAreaOfRectangle();
     }

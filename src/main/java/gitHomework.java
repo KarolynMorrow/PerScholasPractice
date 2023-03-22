@@ -7,29 +7,36 @@ public class gitHomework {
         System.out.println("Hello world, This is practice for commit. This is the first commit updated during the third commit");
         secondCommit();
         thirdCommit();
-        addScanner();
-
+        scannerInput();
+        evenOddStrings();
 
     }
 
-    public static void secondCommit(){
+    public static void secondCommit() {
         System.out.println("This is considered the second commit.");
     }
 
-    public static void thirdCommit(){
+    public static void thirdCommit() {
         System.out.println("This is the third and final commit.");
     }
 
-    public static void addScanner(){
+    public static void scannerInput() {
         Scanner input = new Scanner(System.in);
-        Scanner inputTwo = new Scanner(System.in);
-        System.out.println("Input two strings to get the length:");
-        int length1 = input.nextLine().length();
-        int length2 = inputTwo.nextLine().length();
-       if (length1 + length2 % 2 == 0){
-           System.out.println("Even number");
-       } else {
-           System.out.println("Odd number");
-       }
+        System.out.println("Input two strings to add the lengths:");
+        String firstString = input.nextLine();
+        String secondString = input.nextLine();
+        System.out.println("");
+
+    }
+
+    public static int addInput(){
+
+    }
+    public static void evenOddStrings(int total) {
+        if (total % 2 == 0) {
+            System.out.println("Even number");
+        } else {
+            System.out.println("Odd number");
+        }
     }
 }
